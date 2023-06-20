@@ -1,0 +1,134 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+body{
+	font-family: 'Catamaran', sans-serif;
+}
+
+#hero-slides h3{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+}
+
+#hero-slides h2{
+	text-align: left;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+#hero-slides p{
+	font-weight: 600;
+	text-align: left;
+	font-size: 15px;
+}
+
+
+#intro{
+	color: var(--color-footer);
+}
+
+#intro .intro-columna{
+	margin: 50px 20px;
+	background-color: #161616;
+}
+
+#intro h6{
+	font-size: 12px;
+	margin-top: 15px;
+	margin-right: 8px;
+}
+
+#intro h4{
+	font-size: 20px;
+}
+
+#intro p{
+	font-size: 11px;
+}
+
+#intro a{
+	font-size: 12px;
+}
+
+#intro img{
+	margin-top: 22%;
+}
+
+#products{
+	padding: 40px 0;
+}
+
+#products .card{
+	border-radius: 0;
+	border-color: #161616;
+	background-color: #161616;
+	color:  #fff;
+}
+
+#products h4{
+	font-size: 17px;
+}
+
+#cta{
+	background-image: url("../img/bg-parallax.png");
+	background-size: cover;
+	background-position: top center;
+	height: 60vh;
+}
+
+#cta h2{
+	color: #fff;
+	font-size: 40px;
+	padding-top: 90px;
+	font-weight: 700;
+}
+
+#cta p{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+#cta a{
+    color: #fff;
+    margin: 20px 0;
+    padding: 7px 20px;
+    border-color: #fff; 
+	padding-top: 5px;
+}
+
+#products h5{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 17px;
+	font-weight: 700;
+}
+
+
